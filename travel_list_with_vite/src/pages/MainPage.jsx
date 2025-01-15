@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Countries (props) {
   return(
@@ -23,7 +23,10 @@ function Article (props) {
       <ul>
         {props.cities.map(city => (
           <li key={city.id}>
-            <Link to={"/citymap/"+city.name}>{city.name}</Link>
+            {city.name}
+            <Link to={"/citymap/"+city.name}>
+              <button>지도 보기</button>
+            </Link>
           </li>
         ))}
       </ul>
