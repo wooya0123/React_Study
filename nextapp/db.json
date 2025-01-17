@@ -1,0 +1,44 @@
+{
+  "topics": [
+    {
+      "id": "1",
+      "title": "topic1"
+    },
+    {
+      "id": "2",
+      "title": "topic2"
+    },
+    {
+      "id": "4f54",
+      "title": "topic3",
+      "body": "toooopic"
+    },
+    {
+      "id": "f139",
+      "title": "topic4",
+      "body": "4444"
+    },
+    {
+      "id": "f344",
+      "title": "topic5",
+      "body": "newtopic"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
